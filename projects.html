@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Port Hub</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #000;
+            padding: 20px 40px;
+            border-bottom: 3px solid #ff9000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .hub {
+            background-color: #ff9000;
+            color: #000;
+            padding: 3px 10px;
+            border-radius: 5px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        .nav-links a.active {
+            background-color: #ff9000;
+            color: #000;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 40px;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #ff9000;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #fff;
+            margin: 40px 0 20px 0;
+        }
+
+        .projects {
+            display: flex;
+            gap: 30px;
+        }
+
+        .project-card {
+            flex: 1;
+            background-color: #1a1a1a;
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid #333;
+        }
+
+        .project-card h3 {
+            color: #ff9000;
+            margin-bottom: 15px;
+        }
+
+        .project-card p {
+            color: #ccc;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .project-link {
+            padding: 10px 20px;
+            background-color: #ff9000;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .skills {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .skill-box {
+            background-color: #1a1a1a;
+            padding: 15px 30px;
+            border-radius: 8px;
+            border: 2px solid #333;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Port<span class="hub">Hub</span></div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>Projects & Skills</h1>
+
+        <h2>Featured Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Valentine Website</h3>
+                <p>A fully responsive personal website built with HTML, CSS, and JavaScript.</p>
+                <a href="https://vernsmoke.github.io/vern-website/" class="project-link">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Interactive Game</h3>
+                <p>A fun browser based game built with HTML, CSS, and JavaScript.</p>
+                <a href="flappybird.html" class="project-link">View on GitHub</a>
+            </div>
+        </div>
+
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <div class="skill-box">HTML</div>
+            <div class="skill-box">CSS</div>
+            <div class="skill-box">JavaScript</div>
+            <div class="skill-box">Java</div>
+            <div class="skill-box">Computer Hardware</div>
+        </div>
+    </div>
+</body>
+</html>

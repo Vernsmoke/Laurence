@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Port Hub</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .navbar {
+            background-color: #000;
+            padding: 20px 40px;
+            border-bottom: 3px solid #ff9000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .hub {
+            background-color: #ff9000;
+            color: #000;
+            padding: 3px 10px;
+            border-radius: 5px;        
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+        .nav-links a.active {
+            background-color: #ff9000;
+            color: #000;
+        }
+        .hero {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 40px;
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+        .hero-left {
+            flex: 1;
+        }
+        .profile-pic {
+            width: 100%;
+            max-width: 400px;
+            border: 5px solid #ff9000;
+            border-radius: 10px;
+        }
+        .hero-right {
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #ff9000;
+            margin: 0 0 20px 0;
+        }
+
+        .tagline {
+            font-size: 22px;
+            color: #ccc;
+            margin: 10px 0;
+        }
+
+        .stats {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 40px;
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+        }
+
+        .stat-box {
+            background-color: #1a1a1a;
+            padding: 30px 40px;
+            border-radius: 10px;
+            border: 2px solid #333;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 40px;
+            color: #ff9000;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            color: #ccc;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Port<span class="hub">Hub</span></div>
+        <div class="nav-links">
+            <a href="home.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="hero-left">
+            <img src="picture\picture1.jfif" alt="Profile Picture" class="profile-pic">
+        </div>
+        <div class="hero-right">
+            <h1>Laurence Matthew B. Manuel</h1>
+            <p class="tagline">Web Developer & Creative Designer</p>
+            <p class="tagline">Building the future, one project at a time</p>
+        </div>
+    </div>
+
+    <div class="stats">
+        <div class="stat-box">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Skills Mastered</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-number">5+</div>
+            <div class="stat-label">Achievements</div>
+        </div>
+    </div>
+</body>
+</html>

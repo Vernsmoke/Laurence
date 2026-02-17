@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Port Hub</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #000;
+            padding: 20px 40px;
+            border-bottom: 3px solid #ff9000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .hub {
+            background-color: #ff9000;
+            color: #000;
+            padding: 3px 10px;
+            border-radius: 5px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        .nav-links a.active {
+            background-color: #ff9000;
+            color: #000;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 40px;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #ff9000;
+            margin-bottom: 30px;
+        }
+
+        .contact-grid {
+            display: flex;
+            gap: 40px;
+        }
+
+        .contact-form, .contact-info {
+            flex: 1;
+            background-color: #1a1a1a;
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid #333;
+        }
+
+        h2 {
+            color: #ff9000;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin: 15px 0 5px 0;
+            color: #ccc;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            background-color: #0a0a0a;
+            border: 2px solid #333;
+            border-radius: 5px;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 120px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #ff9000;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background-color: #0a0a0a;
+            border: 2px solid #333;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #ff9000;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .social-text {
+            flex: 1;
+        }
+
+        .social-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .social-handle {
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Port<span class="hub">Hub</span></div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>Get In Touch</h1>
+
+        <div class="contact-grid">
+            <div class="contact-form">
+                <h2>Send a Message</h2>
+                <form>
+                    <label>Your Name</label>
+                    <input type="text" placeholder="Enter your name">
+                    
+                    <label>Email Address</label>
+                    <input type="text" placeholder="your.email@example.com">
+                    
+                    <label>Your Message</label>
+                    <textarea placeholder="Write your message here..." ></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h2>Connect With Me</h2>
+                <p style="color: #ccc; margin-bottom: 20px;">Feel free to reach out through any of these platforms.</p>
+
+                <a href="https://github.com/vernsmoke" class="social-link">
+                    <div class="social-icon">G</div>
+                    <div class="social-text">
+                        <div class="social-title">GitHub</div>
+                        <div class="social-handle">@Vernsmoke</div>
+                    </div>
+                </a>
+
+                <a href="https://www.facebook.com/Vernlaurence.matthew" class="social-link">
+                    <div class="social-icon">F</div>
+                    <div class="social-text">
+                        <div class="social-title">Facebook</div>
+                        <div class="social-handle">@Vern</div>
+                    </div>
+                </a>
+
+                <a href="https://Gmail.com" class="social-link">
+                    <div class="social-icon">@</div>
+                    <div class="social-text">
+                        <div class="social-title">Email</div>
+                        <div class="social-handle">Vern@email.com</div>
+                    </div>
+                </a>
+
+                <a href="https://www.tiktok.com/@vernsmoke?is_from_webapp=1&sender_device=pc" class="social-link">
+                    <div class="social-icon">T</div>
+                    <div class="social-text">
+                        <div class="social-title">TikTok</div>
+                        <div class="social-handle">@Vernsmoke</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
